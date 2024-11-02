@@ -1,3 +1,12 @@
 aws s3 cp s3://int-demo-nov/jenkins_backup.tar.gz  /home/ubuntu/jenkins-agent
 tar -xzvf jenkins_backup.tar.gz
+jnkins
 ssh -i "osher.pem" ubuntu@ec2-3-131-49-194.us-east-2.compute.amazonaws.com
+agent
+
+
+ssh -i "osher-agent.pem" ubuntu@ec2-3-145-151-221.us-east-2.compute.amazonaws.com
+
+
+snyk auth <your_api_token>
+ snyk auth 70219e47-68ca-4439-98d2-f18bca845c90
